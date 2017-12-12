@@ -1,0 +1,222 @@
+@import url(http://fonts.googleapis.com/css?family=Armata);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+h1 {
+    font-family: 'Armata', serif;
+    color: #666666
+    font-size: 48pt;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Armata', serif;
+    color: #666666
+    font-size: 36pt;
+    text-align: center;
+    
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+th.talkheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+}
+
+td.talkmajor {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+    text-align: center;
+}
+
+div.talktitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    font-weight: 800;
+    color: black;
+}
+
+div.talkspeaker {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    color: black;
+}
+
+div.talkspeaker > a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    color: black;
+    font-weight: 400;
+}
+
+td.scheduletime {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    text-align: center;
+}
+
+div.topgradient 
+{     
+    background-image:linear-gradient(#ffcc33, #fff);
+    background-image:-webkit-linear-gradient(#ffcc33, #fff 80%);
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    text-align: center;
+}
+
+div.topgradient > img {
+    max-width:90%;
+}
+
+.offsetanchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+body { padding-top: 50px; }
+
+div.footer {
+    background-color: #ffcc33;
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+div.breakline {
+    background-color: #ffcc33;
+    display: block;
+    height: 2px;
+    
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+div.bodybreak {
+    display: block;
+    height: 2px;
+    
+    margin-bottom: 40px;
+}
+
+.bodytext {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+
+.sponsorrow {
+    text-align: center;
+}
+
+.sponsor {
+    padding: 20px;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.speakergrid {
+    padding: 20px;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+th {
+    text-align: center;
+}
+
+.leftalign {
+    text-align: left;
+}
+
+img.kn-image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.kn-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+div.kn-bio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+    
+    margin-bottom: 30px;
+}
+
+img.sp-image {
+    max-width: 100%;
+}
+
+div.speaker > div.picture {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 10px;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333333;
+}
+
+div.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+div.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    margin-bottom: 5px;
+}
+
+div.links {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+div.abstract {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+div.bio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+}
