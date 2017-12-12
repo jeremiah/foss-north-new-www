@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>foss-north 2018</title>
+
+    <link rel="icon" type="image/png" href="favicon.ico">
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">    
+  </head>
+  <body class="topgradient">
+  
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="http://foss-north.se/"><img src="images/brand-logo.png" /></a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="speakers-and-talks.html">Speakers and Talks <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tickets.html">Tickets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contribute.html">Contribute</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Other Events
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="http://foss-gbg.se/">foss-gbg</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="http://foss-north.se/2016/">foss-north 2016</a>
+                        <a class="dropdown-item" href="http://foss-north.se/2017/">foss-north 2017</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        
+    <div class="container">
+        <h1>Speakers and Talks</h1>
+
+        <div class="bodybreak">&nbsp;</div>
+
+        <a class="offsetanchor" name="paas"></a>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="picture"><img class="sp-image" src="images/speaker-paas.jpeg" alt="Patricia Aas"></div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="name">Patricia Aas</div>
+                <div class="title">Isolating GPU access in its own process</div>
+
+                <div class="abstract">
+                    Chromium's process architecture has graphics access restricted to a separate GPU-process. There are several reasons why this could make sense, three common ones are: Security, Robustness and Dependency Separation.
+                </div>
+
+                <div class="abstract">
+                    GPU access restricted to a single process requires an efficient framework for communication over IPC from the other processes, and most likely a framework for composition of surfaces. This talk describes both the possible motivations for this kind of architecture and Chromium's solution for the IPC framework. We will demonstrate how a multiprocess program can compose into a single window on Linux.
+                </div>
+            </div>
+        </div>
+
+        <div class="bodybreak">&nbsp;</div>
+
+        <a class="offsetanchor" name="cmunk"></a>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="picture"><img class="sp-image" src="images/speaker-cmunk.jpeg" alt="Carsten Munk"></div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="name">Carsten Munk</div>
+                <div class="title">Zipper - an open source out of box experience for the blockchain world</div>
+
+                <div class="abstract">
+                    Zipper is an Ethereum based mobile platform which brings blockchain
+                    based services to our smartphones in one seamless and user-controlled
+                    experience.
+                </div>
+
+                <div class="abstract">
+                    At first, Zipper provides everyday smartphone users an easy and safe
+                    way to manage their identity and private keys. This makes it possible
+                    for anyone to access blockchain based services out-of-the-box in an
+                    easy and intuitive way - just like Apple’s services on iOS today -
+                    while being in full control of their identity, transactions and data.
+                    Zipper works in an isolated compartment in Android and Sailfish OS
+                    smartphones, making Zipper and its wallet secure while still easily
+                    accessible.
+                </div>
+
+                <div class="bio">
+                    Carsten is CTO at Zipper Global Ltd currently. Carsten was involved in
+                    Maemo, MeeGo mobile OS projects and was CTO at Jolla which built
+                    Sailfish OS. Passionate about empowering people to do amazing things
+                    with technology.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        foss-north and foss-gbg are arranged by Free Open Source Software North Conferences ek.f&ouml;r.<br />
+        Contact: info -at- foss-gbg.se.
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</html>
