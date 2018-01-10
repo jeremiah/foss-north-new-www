@@ -3,14 +3,14 @@
 
 h1 {
     font-family: 'Armata', serif;
-    color: #666666
+    color: #333333;
     font-size: 48pt;
     text-align: center;
 }
 
 h2 {
     font-family: 'Armata', serif;
-    color: #666666
+    color: #333333;
     font-size: 36pt;
     text-align: center;
     
@@ -134,7 +134,7 @@ div.name {
 }
 
 div.title {
-    font-family: 'Roboto', sans-serif;
+    font-blackfamily: 'Roboto', sans-serif;
     font-size: 24pt;
     margin-bottom: 5px;
 }
@@ -156,4 +156,14 @@ div.bio {
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
     font-style: italic;
+}
+
+a.speakerfront,
+a.speakerfront:hover,
+a.speakerfront:focus {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    text-decoration: underline;
+    text-decoration-style:dotted;
 }
