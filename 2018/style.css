@@ -104,6 +104,13 @@ div.bigbodybreak {
     text-align: center;
 }
 
+.sponsor {
+    padding: 20px;
+    max-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .speakergrid {
     padding: 20px;
     max-width: 80%;
