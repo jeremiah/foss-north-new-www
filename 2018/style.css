@@ -18,6 +18,49 @@ h2 {
     margin-bottom: 30px;
 }
 
+th {
+    text-align: center;
+}
+
+th.talkheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+}
+
+td.talkmajor {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+    text-align: center;
+}
+
+div.talktitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    font-weight: 800;
+    color: black;
+}
+
+div.talkspeaker {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    color: black;
+}
+
+div.talkspeaker > a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    color: black;
+    font-weight: 400;
+}
+
+td.scheduletime {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    text-align: center;
+}
+
 .bodytext {
     text-align: center;
     font-family: 'Roboto', sans-serif;
