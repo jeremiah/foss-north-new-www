@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>foss-north 2019</title>
+
+    <link rel="icon" type="image/png" href="favicon.ico">
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="http://foss-north.se/"><img src="images/brand-logo.png" /></a>
+        
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"><li class="nav-item"><a class="nav-link" href="/2019/">Home</a>
+                    </li><li class="nav-item active"><a class="nav-link" href="/2019/speakers-and-talks.html">Speakers and Talks<span class="sr-only">(current)</span></a>
+                    </li><li class="nav-item"><a class="nav-link" href="/2019/contribute.html">Contribute</a>
+                    </li><li class="nav-item"><a class="nav-link" href="/2019/coc.html">Code of Conduct</a>
+                    </li></ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Other Events
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="http://foss-gbg.se/">foss-gbg</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="http://foss-north.se/2016/">foss-north 2016</a>
+                    <a class="dropdown-item" href="http://foss-north.se/2017/">foss-north 2017</a>
+                    <a class="dropdown-item" href="http://foss-north.se/2018/">foss-north 2018</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+        <h1>Speakers and Talks</h1>
+<a name="mkerrisk" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><img class="sp-image" src="images/speaker-mkerrisk.png" alt="Michael Kerrisk"></div>
+        </div>
+        <div class="col-md-9">
+            <div class="name">Michael Kerrisk</div>
+            <div class="title">Understanding user namespaces</div><div class="abstract">
+                User namespaces are at the heart of many interesting technologies that allow isolation and sandboxing of applications, for example running containers without root privileges and sandboxes for web browser plug-ins. In this tutorial, we'll look in detail at user namespaces, building up a basic understanding of what a user namespace is and going on to questions such as: what does being &ldquo;superuser inside a user namespace&rdquo; allow you do (and what does it not allow); what is the relationship between user namespaces and other namespace types (PID, UTS, network, etc.); and what are the security implications of user namespaces? We'll also explore some simple shell commands that can be used for creating and experimenting with user namespaces in order to better understand how they work. Along the way, there will hopefully be time for a few live demos.
+            </div><div class="bio">
+                Michael Kerrisk is the author of the acclaimed book, &ldquo;The Linux Programming Interface&rdquo; (<a href='http://man7.org/tlpi/'>http://man7.org/tlpi/</a>), a guide and reference for system programming on Linux and UNIX. He contributes to the Linux kernel primarily via documentation, review, and testing of new kernel-user-space interfaces. He has contributed to the Linux man-pages project (<a href='http://www.kernel.org/doc/man-pages/'>http://www.kernel.org/doc/man-pages/</a>) since 2000, and been the project maintainer since 2004. Michael is a trainer and consultant, living in Munich, Germany.
+            </div></div>
+    </div><a name="aossowski" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><img class="sp-image" src="images/speaker-aossowski.png" alt="Anna Ossowski"></div>
+        </div>
+        <div class="col-md-9">
+            <div class="name">Anna Ossowski</div>
+            <div class="title">Flourishing FLOSS: Making Your Project Successful</div><div class="abstract">
+                You maintain an Open Source project with great code? Yet your project isn’t succeeding in the ways you want? Maybe you’re struggling with funding or documentation? Or you just can’t find new contributors and you’re drowning in issues and pull requests? Open Source is made up of many components and we are often better-trained in methods for writing good code, than in methods for succeeding in the other dimensions we want our project to grow. In this talk we’ll explore the different components of an Open Source project and how they work together. After this talk you’ll be well-equipped with a ideas and strategies for growing, cultivating, and nourishing your Open Source project.
+            </div><div class="abstract">
+                For your project to succeed, all of its non-code components must be well-maintained. What are these different components and what methods can we learn to maintain them?
+            </div><div class="abstract">
+                <ul><li>Build real relationships with your sponsors and determine ways how both sides can benefit from this relationship, don’t just ask people for money.</li><li>Establish a good communication system with your contributors: Keep them informed, listen to their feedback and input, make them feel heard.</li><li>Thank the people who worked on ticket triage or marketing, not just those who wrote code, in your release notes.</li><li>Make it easy for new contributors to get started: Write and maintain good documentation, answer questions in a friendly and timely manner.</li><li>Market and evangelize in the right places and at the right time: Give conference talks, organize sprints, keep your project’s Twitter account active, always curate new and interesting content on your blog or website.</li><li>Implement a Code of Conduct and enforce it if needed: Make your project a safe space to contribute for everyone.</li></ul>
+            </div><div class="abstract">
+                With these methods and a half-dozen others, you’ll handle beautifully all the components your project needs to succeed.
+            </div><div class="bio">
+                Anna loves working at the intersection of tech and people and currently works for Elastic in developer relations. She is a director of the Python Software Foundation, PyCon US staff member, Django Girls organizer, and group leader of the PyLadies Remote group. In her free time she loves speaking at conferences and mentoring future speakers. Anna is very passionate about diversity and community outreach and wants to encourage more women to learn programming because it’s awesome!
+            </div></div>
+    </div>
+    </div>
+<div class="footer">
+foss-north and foss-gbg are arranged by Free Open Source Software North Conferences ek.f&ouml;r.<br />
+Contact: info -at- foss-gbg.se.
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>
