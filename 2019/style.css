@@ -19,6 +19,24 @@ h2 {
     margin-bottom: 30px;
 }
 
+h2.left {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 36pt;
+    text-align: left;
+    
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 24pt;
+    text-align: left;
+    
+    margin-bottom: 30px;
+}
+
 .navbar {
     margin-bottom: 0;
     border-bottom: solid black 1px;
@@ -82,6 +100,18 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
     margin-bottom: 40px;
+}
+
+p.left {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-bottom: 40px;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
 }
 
 p.tight {
@@ -160,6 +190,16 @@ a.speakerfront:focus {
     color: #333333;
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+a.projectlink,
+a.projectlink:hover,
+a.projectlink:focus {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
     text-decoration: underline;
     text-decoration-style: dotted;
 }
