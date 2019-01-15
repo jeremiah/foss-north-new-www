@@ -131,7 +131,15 @@
     </div><script src="js/OpenLayers.js"></script>
 <script>
     map = new OpenLayers.Map("mapdiv");
-    map.addLayer(new OpenLayers.Layer.OSM());
+    map.addLayer(new OpenLayers.Layer.OSM(
+        "OpenStreetMap", 
+        // Official OSM tileset as protocol-independent URLs
+        [
+            '//a.tile.openstreetmap.org/${z}/${x}/${y}.png',
+            '//b.tile.openstreetmap.org/${z}/${x}/${y}.png',
+            '//c.tile.openstreetmap.org/${z}/${x}/${y}.png'
+        ], 
+        null)));
     
     var markers = new OpenLayers.Layer.Markers( "Markers" );
     map.addLayer(markers);
