@@ -130,8 +130,12 @@
         </div>
     </div><script src="js/OpenLayers.js"></script>
 <script>
-    map = new OpenLayers.Map("mapdiv");
-    map.addLayer(new OpenLayers.Layer.OSM());
+    map = new OpenLayers.Map("mapdiv", { controls: [] });
+    map.addLayer(new OpenLayers.Layer.OSM("OSM", ["https://a.tile.openstreetmap.org/${z}/${x}/${y}.png", "https://b.tile.openstreetmap.org/${z}/${x}/${y}.png", "https://c.tile.openstreetmap.org/${z}/${x}/${y}.png"] ));
+
+    map.addControl(new OpenLayers.Control.PanZoomBar());
+    map.addControl(new OpenLayers.Control.Permalink());
+    map.addControl(new OpenLayers.Control.Permalink('permalink'));
     
     var markers = new OpenLayers.Layer.Markers( "Markers" );
     map.addLayer(markers);
