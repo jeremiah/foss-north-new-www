@@ -100,7 +100,7 @@
             <div class="speaker-photo"><a href="https://www.freebsd.org/"><img class="sp-image" src="images/project-freebsd.png" alt="FreeBSD"></a></div>&nbsp;
             <div class="speaker-photo"><a href="https://b3.se/"><img class="sp-image" src="images/venue-b3.png" alt="B3 Consulting"></a></div></div>
         <div class="col-md-9">
-            <div class="name"><a class="projectlink" href="https://www.freebsd.org/">FreeBSD</a></div><div class="links"><a href="https://www.freebsdfoundation.org/about/project/">About</a></div><div class="abstract">
+            <div class="name"><a class="projectlink" href="https://www.freebsd.org/">FreeBSD</a></div><div class="links"><a href="https://wiki.freebsd.org/DevSummit/201904">Announcement</a>&nbsp;-&nbsp;<a href="https://www.freebsdfoundation.org/about/project/">About</a></div><div class="abstract">
                 Developer meetup and hacking, presentation of the FreeBSD project and what we do.
             </div><div class="abstract">
                 Possibility to try it out and install on own device.
@@ -153,6 +153,17 @@
             </div><p class="left tight"><b>Venue address:</b></p>
             <div class="bio">Chalmers Robotförening<br />Sven Hultins gata 8<br />412 58 Göteborg<br /></div>
         </div>
+    </div><a name="ui" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href=""><img class="sp-image" src="images/project-ui.png" alt="UI Workshop"></a></div>&nbsp;
+            <div class="speaker-photo"><a href="https://www.intunio.se/"><img class="sp-image" src="images/venue-intunio.png" alt="Intunio"></a></div></div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="">UI Workshop</a></div><div class="abstract">
+                T.B.D.
+            </div><p class="left tight"><b>Venue address:</b></p>
+            <div class="bio">Intunio AB<br />Kyrkogatan 15<br />411 15 Göteborg<br /></div>
+        </div>
     </div><script src="js/OpenLayers.js"></script>
 <script>
     map = new OpenLayers.Map("mapdiv", { controls: [] });
@@ -190,6 +201,10 @@
         /* End of loop *//* Start of loop */
         marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.97724, 57.68654 ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#crf"; });
+        markers.addMarker(marker);
+        /* End of loop *//* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.96639, 57.70496 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#ui"; });
         markers.addMarker(marker);
         /* End of loop */map.setCenter(new OpenLayers.LonLat(11.9766646, 57.689343).transform(projection, map.getProjectionObject()), 13);
 </script>
