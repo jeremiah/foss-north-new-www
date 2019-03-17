@@ -137,7 +137,7 @@
     <div class="row speakerrow">
         <div class="col-md-3">
             <div class="speaker-photo"><a href="https://www.rust-lang.org/"><img class="sp-image" src="images/project-rust.png" alt="Rust"></a></div>&nbsp;
-            <div class="speaker-photo"><a href=""><img class="sp-image" src="images/venue-hiq.png" alt="HiQ"></a></div></div>
+            <div class="speaker-photo"><a href="https://www.hiq.se/"><img class="sp-image" src="images/venue-hiq.png" alt="HiQ"></a></div></div>
         <div class="col-md-9">
             <div class="name"><a class="projectlink" href="https://www.rust-lang.org/">Rust</a></div><div class="abstract">
                 Rust is a new systems and concurrent programming language. Also, it is StackOverflows most loved language three years in a row!
@@ -150,26 +150,29 @@
             </div><p class="left tight"><b>Venue address:</b></p>
             <div class="bio">HiQ<br />Östra Hamngatan 24<br />411 09 Göteborg<br /></div>
         </div>
-    </div><a name="crf" class="offsetanchor"></a>
+    </div><a name="gnome" class="offsetanchor"></a>
     <div class="row speakerrow">
         <div class="col-md-3">
-            <div class="speaker-photo"><a href="https://chalmersrobotics.se"><img class="sp-image" src="images/project-crf.png" alt="Chalmers Robotförening"></a></div></div>
+            <div class="speaker-photo"><a href="https://www.gnome.org/foundation/"><img class="sp-image" src="images/project-gnome.png" alt="Gnome"></a></div>&nbsp;
+            <div class="speaker-photo"><a href="https://www.hiq.se/"><img class="sp-image" src="images/venue-hiq.png" alt="HiQ"></a></div></div>
         <div class="col-md-9">
-            <div class="name"><a class="projectlink" href="https://chalmersrobotics.se">Chalmers Robotförening</a></div><div class="abstract">
-                T.B.D.
+            <div class="name"><a class="projectlink" href="https://www.gnome.org/foundation/">Gnome</a></div><div class="links"><a href="https://wiki.gnome.org/Events/foss-north/2019">Announcement</a>&nbsp;-&nbsp;<a href="https://wiki.gnome.org/Newcomers/BeforeWeBegin">Prerequisites</a></div><div class="abstract">
+                An introduction to GNOME community, the projects we are developing now and the areas that people with no technical background can contribute to.
+            </div><div class="abstract">
+                After the introduction we will have the newcomers workshop, which is for developers who want to participate in coding GNOME’s apps.This workshop requires a bit of object oriented programming and git skills.
             </div><p class="left tight"><b>Venue address:</b></p>
-            <div class="bio">Chalmers Robotförening<br />Sven Hultins gata 8<br />412 58 Göteborg<br /></div>
+            <div class="bio">HiQ<br />Östra Hamngatan 24<br />411 09 Göteborg<br /></div>
         </div>
-    </div><a name="ui" class="offsetanchor"></a>
+    </div><a name="openhack" class="offsetanchor"></a>
     <div class="row speakerrow">
         <div class="col-md-3">
-            <div class="speaker-photo"><a href=""><img class="sp-image" src="images/project-ui.png" alt="UI Workshop"></a></div>&nbsp;
-            <div class="speaker-photo"><a href="https://www.intunio.se/"><img class="sp-image" src="images/venue-intunio.png" alt="Intunio"></a></div></div>
+            <div class="speaker-photo"><a href="https://www.openhack.io/"><img class="sp-image" src="images/project-openhack.png" alt="OpenHack"></a></div>&nbsp;
+            <div class="speaker-photo"><a href="https://www.hiq.se/"><img class="sp-image" src="images/venue-hiq.png" alt="HiQ"></a></div></div>
         <div class="col-md-9">
-            <div class="name"><a class="projectlink" href="">UI Workshop</a></div><div class="abstract">
+            <div class="name"><a class="projectlink" href="https://www.openhack.io/">OpenHack</a></div><div class="abstract">
                 T.B.D.
             </div><p class="left tight"><b>Venue address:</b></p>
-            <div class="bio">Intunio AB<br />Kyrkogatan 15<br />411 15 Göteborg<br /></div>
+            <div class="bio">HiQ<br />Östra Hamngatan 24<br />411 09 Göteborg<br /></div>
         </div>
     </div><script src="js/OpenLayers.js"></script>
 <script>
@@ -206,12 +209,12 @@
         marker.events.register("click", marker, function() { location.hash = "#rust"; });
         markers.addMarker(marker);
         /* End of loop *//* Start of loop */
-        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.97724, 57.68654 ).transform(projection, map.getProjectionObject()), icon.clone());
-        marker.events.register("click", marker, function() { location.hash = "#crf"; });
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.96746, 57.70844 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#gnome"; });
         markers.addMarker(marker);
         /* End of loop *//* Start of loop */
-        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.96639, 57.70496 ).transform(projection, map.getProjectionObject()), icon.clone());
-        marker.events.register("click", marker, function() { location.hash = "#ui"; });
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.96746, 57.70844 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#openhack"; });
         markers.addMarker(marker);
         /* End of loop */map.setCenter(new OpenLayers.LonLat(11.9766646, 57.689343).transform(projection, map.getProjectionObject()), 13);
 </script>
