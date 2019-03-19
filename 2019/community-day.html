@@ -174,6 +174,22 @@
             </div><p class="left tight"><b>Venue address:</b></p>
             <div class="bio">HiQ<br />Östra Hamngatan 24<br />411 09 Göteborg<br /></div>
         </div>
+    </div><a name="crf" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="https://chalmersrobotics.se"><img class="sp-image" src="images/project-crf.png" alt="Chalmers Robotförening"></a></div></div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="https://chalmersrobotics.se">Chalmers Robotförening</a></div><div class="abstract">
+                You're welcome to hack at Chalmers Robotics!
+            </div><div class="abstract">
+                You will be given a development board NodeMCU (ESP8266) for free and a introduction on how to put MicroPython on it, connect to a WiFi access point and make it do stuff.
+            </div><div class="abstract">
+                How your creation will end up is up to you.
+            </div><div class="abstract">
+                15 spots available, light programming experience needed, free, running from 12:00 to 16:00 2019-04-07. Please use the following <a href='https://goo.gl/forms/oya7ayBXfSyf2DTH3'>RSVP</a> to register.
+            </div><p class="left tight"><b>Venue address:</b></p>
+            <div class="bio">Chalmers Robotförening<br />Sven Hultins gata 8<br />412 58 Göteborg<br /></div>
+        </div>
     </div><script src="js/OpenLayers.js"></script>
 <script>
     map = new OpenLayers.Map("mapdiv", { controls: [] });
@@ -215,6 +231,10 @@
         /* End of loop *//* Start of loop */
         marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.96746, 57.70844 ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#openhack"; });
+        markers.addMarker(marker);
+        /* End of loop *//* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.97724, 57.68654 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#crf"; });
         markers.addMarker(marker);
         /* End of loop */map.setCenter(new OpenLayers.LonLat(11.9766646, 57.689343).transform(projection, map.getProjectionObject()), 13);
 </script>
