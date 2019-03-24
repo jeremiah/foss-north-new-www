@@ -73,7 +73,17 @@
 
 <div class="bodybreak">&nbsp;</div>
 
-<h2>Projects</h2><a name="kde" class="offsetanchor"></a>
+<h2>Projects</h2><a name="social" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="https://steampunkbar.se/"><img class="sp-image" src="images/project-social.png" alt="Social Event!"></a></div></div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="https://steampunkbar.se/">Social Event!</a></div><div class="abstract">
+                The foss-north 2019 social event takes place at Steampunk Bar. We have warned the bar that we will arrive around 7pm.
+            </div><p class="left tight"><b>Venue address:</b></p>
+            <div class="bio">Steampunk Bar<br />Kungsgatan 7<br />Göteborg<br /></div>
+        </div>
+    </div><a name="kde" class="offsetanchor"></a>
     <div class="row speakerrow">
         <div class="col-md-3">
             <div class="speaker-photo"><a href="https://www.kde.org/"><img class="sp-image" src="images/project-kde.png" alt="KDE and gbgcpp"></a></div>&nbsp;
@@ -221,6 +231,10 @@
     var projection = new OpenLayers.Projection("EPSG:4326");
     var icon = new OpenLayers.Icon("images/brand-logo.png");
     var marker;/* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.95806, 57.70285 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#social"; });
+        markers.addMarker(marker);
+        /* End of loop *//* Start of loop */
         marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.945472, 57.706903 ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#kde"; });
         markers.addMarker(marker);
