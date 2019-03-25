@@ -200,6 +200,18 @@
             </div><p class="left tight"><b>Venue address:</b></p>
             <div class="bio">HiQ<br />Östra Hamngatan 24<br />411 09 Göteborg<br /></div>
         </div>
+    </div><a name="fp" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="https://www.meetup.com/got-lambda/events/259965014/"><img class="sp-image" src="images/project-fp.png" alt="Testing & Functional programming"></a></div></div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="https://www.meetup.com/got-lambda/events/259965014/">Testing &amp; Functional programming</a></div><div class="abstract">
+                <ul><li>14:30 - Doors open</li><li>14:50 - Welcome to the event</li><li>15:00 - John Hughes: Building on developers' intuitions</li><li>16:00 - Oskar Wickström: Property-Based Testing The Ugly Parts</li><li>17:00 - Pause and mingle</li><li>17:30 - Alejandro Russo: DraGen, a new generator of random data to use with QuickCheck</li><li>18:30 - More mingling</li><li>19:00 - Thanks for today as we will be joining the rest of the foss-north Community Day for the social event</li></ul>
+            </div><div class="abstract">
+                Please <a href='https://www.meetup.com/got-lambda/events/259965014/'>RSVP here</a>.
+            </div><p class="left tight"><b>Venue address:</b></p>
+            <div class="bio">Somewhere at Chalmers<br />Will be updated via the RSVP<br /></div>
+        </div>
     </div><a name="crf" class="offsetanchor"></a>
     <div class="row speakerrow">
         <div class="col-md-3">
@@ -261,6 +273,10 @@
         /* End of loop *//* Start of loop */
         marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.96746, 57.70844 ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#openhack"; });
+        markers.addMarker(marker);
+        /* End of loop *//* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.97947, 57.68969 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#fp"; });
         markers.addMarker(marker);
         /* End of loop *//* Start of loop */
         marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.97724, 57.68654 ).transform(projection, map.getProjectionObject()), icon.clone());
