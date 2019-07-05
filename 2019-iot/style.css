@@ -58,6 +58,41 @@ div.bodybreak {
     margin-bottom: 60px;
 }
 
+img.speakergrid {
+    padding: 20px;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.speakerfront {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+
+div.namefront {
+    font-style: italic;
+}
+
+div.speakerimg {
+}
+
+div.titlefront {
+    font-weight: bold;
+}
+
+div.abstractfront {
+    margin-top: 10pt;
+    font-size: 90%;
+}
+
+div.biofront {
+    margin-top: 10pt;
+    font-style: italic;
+    font-size: 90%;
+}
+
+
 a,
 a:hover,
 a:focus {
