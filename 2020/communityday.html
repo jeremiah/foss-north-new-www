@@ -42,6 +42,13 @@
                 
                     <li class="nav-item">
                 
+                <a class="nav-link" href="trainingday.html">Training Day
+                </a>
+                </li>
+            
+                
+                    <li class="nav-item">
+                
                 <a class="nav-link" href="contribute.html">Contribute
                 </a>
                 </li>
@@ -187,6 +194,31 @@
         </div>
     </div>
 
+    <a name="gnome" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="https://www.gnome.org/"><img class="sp-image" src="images/project-gnome.png" alt="Gnome"></a></div>
+            
+        </div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="https://www.gnome.org/">Gnome</a></div>
+
+            
+            
+            
+            <div class="abstract">
+                T.B.D.
+            </div>
+            
+            <p class="left tight"><b>Venue address:</b></p>
+            <div class="bio">
+            
+                T.B.D.<br />
+            
+            </div>
+        </div>
+    </div>
+
 
 <script src="js/OpenLayers.js"></script>
 <script>
@@ -220,6 +252,12 @@
         /* Start of loop */
         marker = new OpenLayers.Marker(new OpenLayers.LonLat( 12.01129, 57.67082 ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#badge"; });
+        markers.addMarker(marker);
+        /* End of loop */
+    
+        /* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.966646, 57.689343 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#gnome"; });
         markers.addMarker(marker);
         /* End of loop */
     
