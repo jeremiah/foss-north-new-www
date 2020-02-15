@@ -263,6 +263,47 @@
         </div>
     </div>
 
+    <a name="ansible" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="https://www.ansible.com/community"><img class="sp-image" src="images/project-ansible.png" alt="Ansible Contributor Summit Europe"></a></div>
+            
+        </div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="https://www.ansible.com/community">Ansible Contributor Summit Europe</a></div>
+
+            
+                <div class="links">
+                    
+                        <a href="https://groups.google.com/forum/#!topic/ansible-devel/o6xnI9g8QqM">Announcement</a>
+                        
+                            &nbsp;-&nbsp;
+                        
+                    
+                        <a href="https://www.eventbrite.com/e/ansible-contributor-summit-eu-registration-92039844653">Registration</a>
+                        
+                    
+                </div>
+            
+            
+            
+            <div class="abstract">
+                The Ansible Contributor Summit is a full day of working sessions with the Ansible core team and community contributors. This year the European edition will be held in Gothenburg, in conjunction with foss-north 2020,as part of the Community Day. The event is free but registration is required!
+            </div>
+            
+            <p class="left tight"><b>Venue address:</b></p>
+            <div class="bio">
+            
+                Chalmers Conference Centre<br />
+            
+                Chalmersplatsen 1<br />
+            
+                412 58 Göteborg<br />
+            
+            </div>
+        </div>
+    </div>
+
 
 <script src="js/OpenLayers.js"></script>
 <script>
@@ -308,6 +349,12 @@
         /* Start of loop */
         marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.9726646, 57.689343 ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#debian"; });
+        markers.addMarker(marker);
+        /* End of loop */
+    
+        /* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.97372, 57.68926 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#ansible"; });
         markers.addMarker(marker);
         /* End of loop */
     
