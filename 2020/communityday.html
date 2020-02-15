@@ -248,16 +248,35 @@
             <div class="name"><a class="projectlink" href="https://www.debian.org/">Debian</a></div>
 
             
+                <div class="links">
+                    
+                        <a href="https://wiki.debian.org/BSP/2020/03/se/Gothenburg">Announcement</a>
+                        
+                    
+                </div>
+            
             
             
             <div class="abstract">
-                TBD
+                We'll have a Bug Squashing Party in Gothenburg (Sweden) on Sunday March 29, organized as part of Foss-North's Community Day.  The event will be held at Viktoriahuset, courtesy of the Inbyggd Frihet project, close to the old town.
+            </div>
+            
+            <div class="abstract">
+                Even if you're not a Debian Developer or Maintainer yet (but are otherwise interested in fixing bugs and helping Debian) please don't hesitate to attend; there will be enough people around to sponsor uploads and/or offer advice.
+            </div>
+            
+            <div class="abstract">
+                Please use the wiki for registration and further information about the venue.
             </div>
             
             <p class="left tight"><b>Venue address:</b></p>
             <div class="bio">
             
-                T.B.D.<br />
+                Viktoriahuset<br />
+            
+                Linnégatan 21<br />
+            
+                Gothenburg<br />
             
             </div>
         </div>
@@ -347,7 +366,7 @@
         /* End of loop */
     
         /* Start of loop */
-        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.9726646, 57.689343 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.95177, 57.69915 ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#debian"; });
         markers.addMarker(marker);
         /* End of loop */
