@@ -281,6 +281,31 @@
         </div>
     </div>
 
+    <a name="fp" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="https://www.meetup.com/got-lambda/"><img class="sp-image" src="images/project-fp.png" alt="Functional Programming"></a></div>
+            
+        </div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="https://www.meetup.com/got-lambda/">Functional Programming</a></div>
+
+            
+            
+            
+            <div class="abstract">
+                TBD
+            </div>
+            
+            <p class="left tight"><b>Venue address:</b></p>
+            <div class="bio">
+            
+                TBD<br />
+            
+            </div>
+        </div>
+    </div>
+
     <a name="gnome" class="offsetanchor"></a>
     <div class="row speakerrow">
         <div class="col-md-3">
@@ -382,6 +407,12 @@
         /* Start of loop */
         marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.97361, 57.71509 ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#freebsd"; });
+        markers.addMarker(marker);
+        /* End of loop */
+    
+        /* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.97947, 57.68969 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#fp"; });
         markers.addMarker(marker);
         /* End of loop */
     
