@@ -362,6 +362,9 @@
         <div class="col-md-3">
             <div class="speaker-photo"><a href="https://www.kde.org/"><img class="sp-image" src="images/project-kde.png" alt="KDE"></a></div>
             
+            &nbsp;
+            <div class="speaker-photo"><a href="https://b3.se/"><img class="sp-image" src="images/venue-b3.png" alt="B3 Consulting"></a></div>
+            
         </div>
         <div class="col-md-9">
             <div class="name"><a class="projectlink" href="https://www.kde.org/">KDE</a></div>
@@ -383,6 +386,46 @@
             
             <div class="abstract">
                 The KDE community and technologies it uses, from translation to coding to design. We have a handful of topics, and we'll see what gets the most interest. Afterwards we'll sit down with a drink and talk KDE things in general. To participate, you'll need a laptop or mobile device.
+            </div>
+            
+            <p class="left tight"><b>Venue address:</b></p>
+            <div class="bio">
+            
+                B3 Consulting Göteborg<br />
+            
+                Kämpegatan 6<br />
+            
+                411 04 Göteborg<br />
+            
+            </div>
+        </div>
+    </div>
+
+    <a name="riscv" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href=""><img class="sp-image" src="images/project-riscv.png" alt="RISC-V"></a></div>
+            
+        </div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="">RISC-V</a></div>
+
+            
+                <div class="links">
+                    
+                        <a href="https://www.meetup.com/Goteborg-RISC-V-Group/events/269185417/">Announcement</a>
+                        
+                    
+                </div>
+            
+            
+            
+            <div class="abstract">
+                The event will start at 16.00. We are still working on the program, and hopefully there will be a number of interesting speakers! We'll start the first meeting with a RISC-V overview! The venue and agenda is still to be settled. Please watch this space for updates!
+            </div>
+            
+            <div class="abstract">
+                If you have a RISC-V topic you want to present, don't hesitate to reach out! Got a board you'd like demo? Bring it!
             </div>
             
             <p class="left tight"><b>Venue address:</b></p>
@@ -449,8 +492,14 @@
         /* End of loop */
     
         /* Start of loop */
-        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.9766646, 57.689343 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.97561, 57.71509 ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#kde"; });
+        markers.addMarker(marker);
+        /* End of loop */
+    
+        /* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.966956, 57.689343 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#riscv"; });
         markers.addMarker(marker);
         /* End of loop */
     
