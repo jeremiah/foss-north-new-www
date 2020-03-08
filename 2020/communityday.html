@@ -357,6 +357,47 @@
         </div>
     </div>
 
+    <a name="ingrid" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="https://itingrid.se"><img class="sp-image" src="images/project-ingrid.png" alt="Make a (your first?) pull request to open source!"></a></div>
+            
+        </div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="https://itingrid.se">Make a (your first?) pull request to open source!</a></div>
+
+            
+            
+            
+            <div class="abstract">
+                Welcome to the Ingrid workshop!
+            </div>
+            
+            <div class="abstract">
+                Project Ingrid is an IT-calendar for all of Sweden. Find out about hackathons, upcoming conferences, meetups, call for papers and much more.
+            </div>
+            
+            <div class="abstract">
+                Any programming language! You can contribute in any programming language, design, frontend, backend, spelling mistakes - there's something for everyone to contribute to!
+            </div>
+            
+            <div class="abstract">
+                We'll be doing walkthroughts of:<ul><li>GIT - if you're not yet familiar with GIT then come and learn the basics (init, add, commit, pull and push)!</li><li>GIT proficiency - learn how to use branches, squash commits, --amend, --author, rebasing and making pull requests!</li>><li>How to add an item to the IT-calendar</li></ul>
+            </div>
+            
+            <div class="abstract">
+                Requirements:<ul><li>Open minded mindset and a friendly attitude towards others.</li><li>A laptop</li></ul>
+            </div>
+            
+            <p class="left tight"><b>Venue address:</b></p>
+            <div class="bio">
+            
+                T.B.D.<br />
+            
+            </div>
+        </div>
+    </div>
+
     <a name="kde" class="offsetanchor"></a>
     <div class="row speakerrow">
         <div class="col-md-3">
@@ -488,6 +529,12 @@
         /* Start of loop */
         marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.966646, 57.689343 ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#gnome"; });
+        markers.addMarker(marker);
+        /* End of loop */
+    
+        /* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.966956, 57.67082 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#ingrid"; });
         markers.addMarker(marker);
         /* End of loop */
     
