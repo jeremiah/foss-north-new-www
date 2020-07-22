@@ -1,0 +1,192 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>foss-north - the pod</title>
+    <link>https://foss-north.se/pod/</link>
+    <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
+    <language>en</language>
+    <pubDate>Sun, 19 Jul 2020 22:30:18 +0200</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2020 22:30:18 +0200</lastBuildDate>
+    <itunes:author>foss-north</itunes:author>
+    <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:image href="https://foss-north.se/media/local/img/logo-black.png"/>
+    <itunes:owner>
+      <itunes:name>foss-north</itunes:name>
+      <itunes:email>info@foss-north.se</itunes:email>
+    </itunes:owner>
+    <itunes:block>no</itunes:block>
+    <itunes:category text="Technology">
+      <itunes:category text="Computers"/>
+      <itunes:category text="Developers"/>
+    </itunes:category>    
+
+    <item>
+      <title>The curl license - part 1</title>
+      <description>In our summer special Daniel Stenberg visits foss-north and talks about curl, the curl license, and how he picked a license for curl.</description>
+      <pubDate>Sun, 19 Jul 2020 22:30:18 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/12 - The curl license - part 1.ogg" length="14881413" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep12</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep12</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>In our summer special Daniel Stenberg visits foss-north and talks about curl, the curl license, and how he picked a license for curl.</itunes:subtitle>
+      <itunes:summary>In our summer special Daniel Stenberg visits foss-north and talks about curl, the curl license, and how he picked a license for curl.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:19:10</itunes:duration>
+    </item>
+
+    <item>
+      <title>Open Projects</title>
+      <description>What is an open project? There is more beyond open source. We also discuss why open projects sometimes are less open. For instance when it comes to responsible disclosure and trademarks.</description>
+      <pubDate>Sun, 12 Jul 2020 22:28:28 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/11 - Open Projects.ogg" length="15308967" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep11</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep11</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>What is an open project? There is more beyond open source. We also discuss why open projects sometimes are less open. For instance when it comes to responsible disclosure and trademarks.</itunes:subtitle>
+      <itunes:summary>What is an open project? There is more beyond open source. We also discuss why open projects sometimes are less open. For instance when it comes to responsible disclosure and trademarks.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:19:08</itunes:duration>
+    </item>
+
+    <item>
+      <title>Patents - part 2</title>
+      <description>Mirko Boehm visits foss-north and talks about software patents (part 2).</description>
+      <pubDate>Mon, 6 Jul 2020 22:27:24 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/10 - Patents part 2.ogg" length="16638276" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep10</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep10</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>Mirko Boehm visits foss-north and talks about software patents (part 2).</itunes:subtitle>
+      <itunes:summary>Mirko Boehm visits foss-north and talks about software patents (part 2).</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:20:08</itunes:duration>
+    </item>
+
+    <item>
+      <title>Patents - part 1</title>
+      <description>Mirko Boehm visits foss-north and talks about software patents (part 1).</description>
+      <pubDate>Sun, 28 Jun 2020 22:26:34 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/09 - Patents.ogg" length="12250802" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep9</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep9</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>Mirko Boehm visits foss-north and talks about software patents (part 1).</itunes:subtitle>
+      <itunes:summary>Mirko Boehm visits foss-north and talks about software patents (part 1).</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:14:50</itunes:duration>
+    </item>
+
+    <item>
+      <title>Tivoization</title>
+      <description>We take a look at tivoization. What is it, and why is it controversial?</description>
+      <pubDate>Sun, 21 Jun 2020 22:25:55 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/08 - Tivoization.ogg" length="9532187" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep8</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep8</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>We take a look at tivoization. What is it, and why is it controversial?</itunes:subtitle>
+      <itunes:summary>We take a look at tivoization. What is it, and why is it controversial?</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:09:45</itunes:duration>
+    </item>
+
+    <item>
+      <title>The GNU Licenses</title>
+      <description>We have a look at the GNU licenses. This episode discusses: GPL, LGPL, AGPL and GFDL.</description>
+      <pubDate>Fri, 12 Jun 2020 22:21:43 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/07 - The GNU Licenses.ogg" length="16204466" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep7</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep7</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>We have a look at the GNU licenses. This episode discusses: GPL, LGPL, AGPL and GFDL.</itunes:subtitle>
+      <itunes:summary>We have a look at the GNU licenses. This episode discusses: GPL, LGPL, AGPL and GFDL.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:20:11</itunes:duration>
+    </item>
+
+    <item>
+      <title>Modern Permissive Licenses</title>
+      <description>We continue our tour of permissive licenses. This episode discusses: Apache License 2.0, MPL 2.0, various other permissive licenses such as WTFPL, Beerware, Unlicense, CC-0, zlib license.</description>
+      <pubDate>Fri, 5 Jun 2020 22:20:31 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/06 - Modern Permissive Licenses.ogg" length="9214352" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep6</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep6</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>We continue our tour of permissive licenses. This episode discusses: Apache License 2.0, MPL 2.0, various other permissive licenses such as WTFPL, Beerware, Unlicense, CC-0, zlib license.</itunes:subtitle>
+      <itunes:summary>We continue our tour of permissive licenses. This episode discusses: Apache License 2.0, MPL 2.0, various other permissive licenses such as WTFPL, Beerware, Unlicense, CC-0, zlib license.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:11:56</itunes:duration>
+    </item>
+
+    <item>
+      <title>Classic Permissive Licenses</title>
+      <description>We take a tour of the classic permissive licenses. This episode discusses: BSDs, MIT.</description>
+      <pubDate>Fri, 29 May 2020 22:19:19 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/05 - Classic Permissive Licenses.ogg" length="12296045" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep5</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep5</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>We take a tour of the classic permissive licenses. This episode discusses: BSDs, MIT.</itunes:subtitle>
+      <itunes:summary>We take a tour of the classic permissive licenses. This episode discusses: BSDs, MIT.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:16:19</itunes:duration>
+    </item>
+
+    <item>
+      <title>What is a (FOSS) License</title>
+      <description>What makes a software license a free and open source license?</description>
+      <pubDate>Sat, 23 May 2020 22:18:12 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/04 - What is a (FOSS) License.ogg" length="10972644" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep4</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep4</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>What makes a software license a free and open source license?</itunes:subtitle>
+      <itunes:summary>What makes a software license a free and open source license?</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:14:05</itunes:duration>
+    </item>
+
+    <item>
+      <title>The History of Free and Open Source Software</title>
+      <description>We take a look at the history of free and open source software.</description>
+      <pubDate>Sat, 16 May 2020 22:15:41 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/03 - The History of Free and Open Source Software.ogg" length="11300453" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep3</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep3</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>We take a look at the history of free and open source software.</itunes:subtitle>
+      <itunes:summary>We take a look at the history of free and open source software.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:14:41</itunes:duration>
+    </item>
+
+    <item>
+      <title>Copyright and Software</title>
+      <description>We look at how copyright affects software and why software licenses are necessary.</description>
+      <pubDate>Sat, 9 May 2020 22:14:13 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/02 - Copyright and Software.ogg" length="8225736" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep2</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep2</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>We look at how copyright affects software and why software licenses are necessary.</itunes:subtitle>
+      <itunes:summary>We look at how copyright affects software and why software licenses are necessary.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:10:46</itunes:duration>
+    </item>
+
+    <item>
+      <title>What is Copyright</title>
+      <description>We have a look at the history of copyright and what it actually is.</description>
+      <pubDate>Fri, 1 May 2020 22:12:10 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/01 - What is Copyright.ogg" length="8345001" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep1</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep1</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>We have a look at the history of copyright and what it actually is.</itunes:subtitle>
+      <itunes:summary>We have a look at the history of copyright and what it actually is.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:10:52</itunes:duration>
+    </item>
+
+  </channel>
+</rss>
