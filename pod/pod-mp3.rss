@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Sun, 19 Jul 2020 22:30:18 +0200</pubDate>
-    <lastBuildDate>Sun, 19 Jul 2020 22:30:18 +0200</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2020 04:31:09 PM +0200</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2020 04:31:09 PM +0200</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,20 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>The curl license - part 2</title>
+      <description>We countinue our summer special with Daniel Stenberg, Mr Curl. We discuss patents, emacs, vim, rust, wolfssl and more.</description>
+      <pubDate>Mon, 27 Jul 2020 04:31:09 PM +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/13 - The curl license - part 2.mp3" length="20898285" type="audio/mpeg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep13</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep13</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>We countinue our summer special with Daniel Stenberg, Mr Curl. We discuss patents, emacs, vim, rust, wolfssl and more.</itunes:subtitle>
+      <itunes:summary>We countinue our summer special with Daniel Stenberg, Mr Curl. We discuss patents, emacs, vim, rust, wolfssl and more.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:21:46</itunes:duration>
+    </item>
 
     <item>
       <title>The curl license - part 1</title>
