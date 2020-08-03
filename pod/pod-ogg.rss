@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Mon, 27 Jul 2020 04:31:09 PM +0200</pubDate>
-    <lastBuildDate>Mon, 27 Jul 2020 04:31:09 PM +0200</lastBuildDate>
+    <pubDate>Mon, 03 Aug 2020 22:49:22 +0200</pubDate>
+    <lastBuildDate>Mon, 03 Aug 2020 22:49:22 +0200</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -21,10 +21,24 @@
     </itunes:category>    
 
     <item>
+      <title>Choose a License</title>
+      <description>After having discussed about licenses, patents, communities and more we discuss how to choose a license. What to think about and how to reason.</description>
+      <pubDate>Mon, 03 Aug 2020 22:49:22 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/14 - Choose a License.ogg" length="9836340" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep14</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep14</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>After having discussed about licenses, patents, communities and more we discuss how to choose a license. What to think about and how to reason.</itunes:subtitle>
+      <itunes:summary>After having discussed about licenses, patents, communities and more we discuss how to choose a license. What to think about and how to reason.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:12:19</itunes:duration>
+    </item>
+
+    <item>
       <title>The curl license - part 2</title>
       <description>We continue our summer special with Daniel Stenberg, Mr Curl. We discuss patents, emacs, vim, rust, wolfssl and more.</description>
       <pubDate>Mon, 27 Jul 2020 04:31:09 PM +0200</pubDate>
-      <enclosure url="https://foss-north.se/pod/episodes/13 - The curl license - part 2.ogg" length="16582225" type="audio/ogg"/>
+      <enclosure url="https://foss-north.se/pod/episodes/13 - The curl license - part 2.ogg" length="16577059" type="audio/ogg"/>
       <link>https://foss-north.se/pod/episodes.html#ep13</link>
       <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep13</guid>
       <itunes:author>foss-north</itunes:author>
