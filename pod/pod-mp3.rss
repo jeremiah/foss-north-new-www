@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Mon, 03 Aug 2020 22:49:22 +0200</pubDate>
-    <lastBuildDate>Mon, 03 Aug 2020 22:49:22 +0200</lastBuildDate>
+    <pubDate>Mon, 10 Aug 2020 22:16:16 +0200</pubDate>
+    <lastBuildDate>Mon, 10 Aug 2020 22:16:16 +0200</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,20 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>We have a pod</title>
+      <description>Announcing that we have a pod and what we will talk about during the autumn.</description>
+      <pubDate>Mon, 10 Aug 2020 22:16:16 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/15 - We have a pod.mp3" length="7484648" type="audio/mpeg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep15</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep15</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>Announcing that we have a pod and what we will talk about during the autumn.</itunes:subtitle>
+      <itunes:summary>Announcing that we have a pod and what we will talk about during the autumn.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:07:47</itunes:duration>
+    </item>
 
     <item>
       <title>Choose a License</title>
