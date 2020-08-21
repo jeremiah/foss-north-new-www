@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Fri, 14 Aug 2020 09:07:43 +0200</pubDate>
-    <lastBuildDate>Fri, 14 Aug 2020 09:07:43 +0200</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2020 16:33:16 +0200</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2020 16:33:16 +0200</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,24 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>Compliance - part 2</title>
+      <description>The foss-north crew discuss and explain copyright and licenses.
+
+This is the second part of three about license compliance.</description>
+      <pubDate>Fri, 21 Aug 2020 16:33:16 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/17%20-%20Compliance%20-%20part%202.ogg" length="6901462" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep17</link>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep17</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses.
+
+This is the second part of three about license compliance.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:08:28</itunes:duration>
+    </item>
 
     <item>
       <title>Compliance - part 1</title>
