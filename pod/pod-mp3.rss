@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Sun, 30 Aug 2020 17:55:24 +0200</pubDate>
-    <lastBuildDate>Sun, 30 Aug 2020 17:55:24 +0200</lastBuildDate>
+    <pubDate>Fri, 04 Sep 2020 13:03:18 +0200</pubDate>
+    <lastBuildDate>Fri, 04 Sep 2020 13:03:18 +0200</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,24 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>Creative Commons</title>
+      <description>The foss-north crew discuss and explain copyright and licenses. This week we talk about the Creative Commons licenses.
+
+</description>
+      <pubDate>Fri, 04 Sep 2020 13:03:18 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/19%20-%20Creative%20Commons.mp3" length="20589549" type="audio/mpeg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep19</link>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep19</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. This week we talk about the Creative Commons licenses.
+
+</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:21:26</itunes:duration>
+    </item>
 
     <item>
       <title>Compliance - part 3</title>
