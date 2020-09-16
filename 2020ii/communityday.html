@@ -53,50 +53,7 @@
 </nav><div class="container">
         
 <h1>Community Day</h1>
-<p>The foss-north community day is a day of community activities taking place on <strong>November 1</strong>.</p>
-<p>We have invited a number of projects to Gothenburg and provided them with venues. Now it is up to you to visit them and explore!</p>
-<p><b>This day is free of charge</b>, but we would be happy if you could <a href="https://www.meetup.com/foss-gbg/events/270258757/">RSVP this meetup</a> for us to know how many your are. Some of the projects also require you <b>register your participation</b>. See the descriptions below for more information.</p>
-<p>Notice that you do need to get one for the rest of the conference. Get your's <a href="tickets.html">here</a>!</p>
-<p><i>Please notice that the list below is tentative!</i></p>
-
-<style>
-    img.olTileImage {
-        max-width: none;
-    }
-</style>
-
-<h2>Map</h2>
-
-<div id="mapdiv" style="height: 600px;"></div>
-
-<div class="bodybreak">&nbsp;</div>
-
-<h2>Projects</h2>
-
-
-
-<script src="js/OpenLayers.js"></script>
-<script>
-    map = new OpenLayers.Map("mapdiv", { controls: [] });
-    map.addLayer(new OpenLayers.Layer.OSM("OSM", ["https://a.tile.openstreetmap.org/${z}/${x}/${y}.png", "https://b.tile.openstreetmap.org/${z}/${x}/${y}.png", "https://c.tile.openstreetmap.org/${z}/${x}/${y}.png"] ));
-
-    map.addControl(new OpenLayers.Control.PanZoomBar());
-    map.addControl(new OpenLayers.Control.Permalink());
-    map.addControl(new OpenLayers.Control.Permalink('permalink'));
-    
-    var markers = new OpenLayers.Layer.Markers( "Markers" );
-    map.addLayer(markers);
-    
-    var projection = new OpenLayers.Projection("EPSG:4326");
-    var icon = new OpenLayers.Icon("images/brand-logo.png");
-    var marker;
-    
-    
-
-    map.setCenter(new OpenLayers.LonLat(11.9766646, 57.689343).transform(projection, map.getProjectionObject()), 13);
-</script>
-
-
+<p>The foss-north 2020 take II will be virtual. Please refer to <a href="index.html">Home</a> for details.</p>
 
     </div>
 <div class="footer">
