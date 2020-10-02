@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Tue, 22 Sep 2020 09:45:48 +0200</pubDate>
-    <lastBuildDate>Tue, 22 Sep 2020 09:45:48 +0200</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2020 22:29:33 +0200</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2020 22:29:33 +0200</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -21,10 +21,24 @@
     </itunes:category>    
 
     <item>
+      <title>Business Models - part 2</title>
+      <description>The foss-north crew discuss and explain copyright and licenses. This is the second episode about business models and we discuss the Physical Products and Open Core models.</description>
+      <pubDate>Fri, 02 Oct 2020 22:29:33 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/22%20-%20Business%20Models%20-%20part%202.mp3" length="17666969" type="audio/mpeg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep22</link>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep22</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. This is the second episode about business models and we discuss the Physical Products and Open Core models.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:18:24</itunes:duration>
+    </item>
+
+    <item>
       <title>Business Models - part 1</title>
       <description>The foss-north crew discuss and explain copyright and licenses. This is the first episode about business models and we discuss the Services and Packaging models.</description>
       <pubDate>Tue, 22 Sep 2020 09:45:48 +0200</pubDate>
-      <enclosure url="https://foss-north.se/pod/episodes/21%20Business%20Models%20-%20part%201.mp3" length="15125613" type="audio/mpeg"/>
+      <enclosure url="https://foss-north.se/pod/episodes/21%20-%20Business%20Models%20-%20part%201.mp3" length="15125613" type="audio/mpeg"/>
       <link>https://foss-north.se/pod/episodes.html#ep21</link>
       <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep21</guid>
       <itunes:author>foss-north</itunes:author>
