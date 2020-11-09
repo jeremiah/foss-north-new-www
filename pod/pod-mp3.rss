@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Tue, 13 Oct 2020 09:57:31 +0200</pubDate>
-    <lastBuildDate>Tue, 13 Oct 2020 09:57:31 +0200</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2020 10:56:48 +0100</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2020 10:56:48 +0100</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,20 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>Business Models - part 3</title>
+      <description>The foss-north crew discuss and explain copyright and licenses. This is the third and last episode about business models and we discuss the as-a-Service and Dual Licensing models, as well as the option of not having a business model at all.</description>
+      <pubDate>Mon, 09 Nov 2020 10:56:48 +0100</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/24%20-%20Business%20Models%20-%20part%203.mp3" length="20368239" type="audio/mpeg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep24</link>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep24</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. This is the third and last episode about business models and we discuss the as-a-Service and Dual Licensing models, as well as the option of not having a business model at all.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:21:12</itunes:duration>
+    </item>
 
     <item>
       <title>Business Models Special - Dual Licensing with George Hosu</title>
@@ -78,18 +92,14 @@
 
     <item>
       <title>Creative Commons</title>
-      <description>The foss-north crew discuss and explain copyright and licenses. This week we talk about the Creative Commons licenses.
-
-</description>
+      <description>The foss-north crew discuss and explain copyright and licenses. This week we talk about the Creative Commons licenses.</description>
       <pubDate>Fri, 04 Sep 2020 13:03:18 +0200</pubDate>
       <enclosure url="https://foss-north.se/pod/episodes/19%20-%20Creative%20Commons.mp3" length="20589549" type="audio/mpeg"/>
       <link>https://foss-north.se/pod/episodes.html#ep19</link>
       <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep19</guid>
       <itunes:author>foss-north</itunes:author>
       <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
-      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. This week we talk about the Creative Commons licenses.
-
-</itunes:summary>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. This week we talk about the Creative Commons licenses.</itunes:summary>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:duration>00:21:26</itunes:duration>
     </item>
