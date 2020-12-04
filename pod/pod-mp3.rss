@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Fri, 20 Nov 2020 16:36:28 +0100</pubDate>
-    <lastBuildDate>Fri, 20 Nov 2020 16:36:28 +0100</lastBuildDate>
+    <pubDate>Fri, 04 Dec 2020 19:06:39 +0100</pubDate>
+    <lastBuildDate>Fri, 04 Dec 2020 19:06:39 +0100</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,20 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>Scancode with Philippe Ombredanne</title>
+      <description>The foss-north crew discuss and explain copyright and licenses. In this episode, Philippe Ombredanne joins us and discuss license compliance, &lt;a href=&#39;https://github.com/nexB/scancode-toolkit&#39;&gt;scancode&lt;/a&gt; and more.</description>
+      <pubDate>Fri, 04 Dec 2020 19:06:39 +0100</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/26%20-%20Scancode%20with%20Philippe%20Ombredanne.mp3" length="39535848" type="audio/mpeg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep26</link>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep26</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. In this episode, Philippe Ombredanne joins us and discuss license compliance, &lt;a href=&#39;https://github.com/nexB/scancode-toolkit&#39;&gt;scancode&lt;/a&gt; and more.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:41:10</itunes:duration>
+    </item>
 
     <item>
       <title>25 Open Hardware with Javier Serrano</title>
