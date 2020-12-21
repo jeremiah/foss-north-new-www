@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Fri, 04 Dec 2020 19:06:39 +0100</pubDate>
-    <lastBuildDate>Fri, 04 Dec 2020 19:06:39 +0100</lastBuildDate>
+    <pubDate>Mon, 21 Dec 2020 09:17:50 +0100</pubDate>
+    <lastBuildDate>Mon, 21 Dec 2020 09:17:50 +0100</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,20 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>Open Data in Gothenburg City</title>
+      <description>The foss-north crew discuss and explain copyright and licenses. In this episode, Kim Lantto from Gothenburg joins us and discuss open data, open source and more.</description>
+      <pubDate>Mon, 21 Dec 2020 09:17:50 +0100</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/27%20-%20Open%20Data%20in%20Gothenburg%20City.ogg" length="24767477" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep27</link>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep27</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. In this episode, Kim Lantto from Gothenburg joins us and discuss open data, open source and more.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:26:50</itunes:duration>
+    </item>
 
     <item>
       <title>Scancode with Philippe Ombredanne</title>
