@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Fri, 01 Jan 2021 11:02:50 +0100</pubDate>
-    <lastBuildDate>Fri, 01 Jan 2021 11:02:50 +0100</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2021 02:51:46 PM +0100</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2021 02:51:46 PM +0100</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,20 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>Matija Šuklje about open source, compliance, patents, andsurströmming</title>
+      <description>The foss-north crew discuss and explain copyright and licenses. In this episode, Matija Šuklje joins us and open source, compliance, patents, surströmming and more.</description>
+      <pubDate>Fri, 15 Jan 2021 02:51:46 PM +0100</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/29%20-%20Matija%20Suklje%20about%20open%20source%2C%20compliance%2C%20patents%2C%20and%20surstromming.ogg" length="None" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep29</link>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep29</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. In this episode, Matija Šuklje joins us and open source, compliance, patents, surströmming and more.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
 
     <item>
       <title>Open Source in Gothenburg City</title>
