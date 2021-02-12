@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Sat, 30 Jan 2021 15:57:33 +0100</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2021 15:57:33 +0100</lastBuildDate>
+    <pubDate>Fri, 12 Feb 2021 09:38:18 PM +0100</pubDate>
+    <lastBuildDate>Fri, 12 Feb 2021 09:38:18 PM +0100</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,20 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>Open Silicon with Olof Kindgren</title>
+      <description>The foss-north crew discuss and explain copyright and licenses. In this episode Olof Kindgren joins us and talks about open silicon, FOSSi foundation, FuseSoc and more.</description>
+      <pubDate>Fri, 12 Feb 2021 09:38:18 PM +0100</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/31%20-%20Open%20Silicon%20with%20Olof%20Kindgren.ogg" length="20370254" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep31</link>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep31</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. In this episode Olof Kindgren joins us and talks about open silicon, FOSSi foundation, FuseSoc and more.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:25:14</itunes:duration>
+    </item>
 
     <item>
       <title>LGPL with Burkhard Stubert</title>
