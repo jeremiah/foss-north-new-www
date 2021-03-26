@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Sun, 14 Mar 2021 17:54:28 +0100</pubDate>
-    <lastBuildDate>Sun, 14 Mar 2021 17:54:28 +0100</lastBuildDate>
+    <pubDate>Fri, 26 Mar 2021 09:11:58 +0100</pubDate>
+    <lastBuildDate>Fri, 26 Mar 2021 09:11:58 +0100</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,20 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>Lukasz Erecinski from Pine64</title>
+      <description>The foss-north crew discuss and explain copyright and licenses. In this episode Lukasz Erecinski joins us and talks about pine64, open source support for hardware, and more.</description>
+      <pubDate>Fri, 26 Mar 2021 09:11:58 +0100</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/34%20-%20Lukasz%20Erecinski%20from%20Pine64.ogg" length="38515178" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep34</link>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep34</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. In this episode Lukasz Erecinski joins us and talks about pine64, open source support for hardware, and more.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:48:52</itunes:duration>
+    </item>
 
     <item>
       <title>Flatpak with Alexander Larsson</title>
