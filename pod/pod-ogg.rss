@@ -4,8 +4,8 @@
     <link>https://foss-north.se/pod/</link>
     <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
     <language>en</language>
-    <pubDate>Fri, 21 May 2021 23:48:16 +0200</pubDate>
-    <lastBuildDate>Fri, 21 May 2021 23:48:16 +0200</lastBuildDate>
+    <pubDate>Wed, 14 Jul 2021 17:08:36 +0200</pubDate>
+    <lastBuildDate>Wed, 14 Jul 2021 17:08:36 +0200</lastBuildDate>
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
@@ -19,6 +19,20 @@
       <itunes:category text="Computers"/>
       <itunes:category text="Developers"/>
     </itunes:category>    
+
+    <item>
+      <title>Open Source at SVT</title>
+      <description>The foss-north crew discuss and explain copyright and licenses. In this episode we talk to Josef and Gustav from SVT (Swedish Television) who work with open source projects within their organization.</description>
+      <pubDate>Wed, 14 Jul 2021 17:08:36 +0200</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/39%20-%20Open%20Source%20at%20SVT.ogg" length="35769929" type="audio/ogg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep39</link>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep39</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
+      <itunes:summary>The foss-north crew discuss and explain copyright and licenses. In this episode we talk to Josef and Gustav from SVT (Swedish Television) who work with open source projects within their organization.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:46:38</itunes:duration>
+    </item>
 
     <item>
       <title>Emil Wåreus from Debricked</title>
