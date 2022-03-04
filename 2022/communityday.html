@@ -34,13 +34,6 @@
                 
                     <li class="nav-item">
                 
-                <a class="nav-link" href="tickets.html">Tickets
-                </a>
-                </li>
-            
-                
-                    <li class="nav-item">
-                
                 <a class="nav-link" href="schedule.html">Schedule
                 </a>
                 </li>
@@ -83,22 +76,11 @@
         
 <h1>Community Day</h1>
 <div class="alert alert-danger" role="alert">
-<p class="mb-0">foss-north 2022 has been <strong>cancelled due to the current COVID situation</strong>. We are working on bringing you a virtual conference in conjuction with LLW. There will be no community day during 2022.</p>
+<p class="mb-0">foss-north 2022 has been <strong>converted to a virtual conference due to the COVID situation</strong>.</p>
 </div>
 
-<p>The foss-north community day is a day of community activities taking place on <strong>April 24</strong>.</p>
-<p>We have invited a number of projects to Gothenburg and provided them with venues. Now it is up to you to visit them and explore!</p>
-<p>Notice that you do need to get one for the rest of the conference. Get your's <a href="tickets.html">here</a>!</p>
-<p><i>Please notice that the list below is tentative!</i></p>
-<h2>Map</h2>
+<p>The foss-north community day is a day of community activities around the foss-north event. Visit and explore the projects below!</p>
 
-<style>
-    img.olTileImage {
-        max-width: none;
-    }
-</style>
-
-<div id="mapdiv" style="height: 600px;"></div>
 
 <div class="bodybreak">&nbsp;</div>
 
@@ -106,23 +88,66 @@
 
 
 
-<script src="js/OpenLayers.js"></script>
-<script>
-    map = new OpenLayers.Map("mapdiv", { controls: [] });
-    map.addLayer(new OpenLayers.Layer.OSM("OSM", ["https://a.tile.openstreetmap.org/${z}/${x}/${y}.png", "https://b.tile.openstreetmap.org/${z}/${x}/${y}.png", "https://c.tile.openstreetmap.org/${z}/${x}/${y}.png"] ));
+    <a name="publiccode" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="https://standard.publiccode.net/"><img class="sp-image" src="images/project-publiccode.png" alt="Standard for Public Code"></a></div>
+            
+        </div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="https://standard.publiccode.net/">Standard for Public Code</a></div>
 
-    map.addControl(new OpenLayers.Control.PanZoomBar());
-    map.addControl(new OpenLayers.Control.Permalink());
-    map.addControl(new OpenLayers.Control.Permalink('permalink'));
-    
-    var markers = new OpenLayers.Layer.Markers( "Markers" );
-    map.addLayer(markers);
-    
-    var projection = new OpenLayers.Projection("EPSG:4326");
-    
+            <div class="links">
+            <strong>T.B.D.</strong>
+            
+                    
+                        &nbsp;-&nbsp;
+                        <a href="https://standard.publiccode.net/">Standard for Public Code</a>
+                    
+                        &nbsp;-&nbsp;
+                        <a href="https://github.com/publiccodenet/community-translations-standard">Community translations</a>
+                    
+            
+            </div>
+            
+            
+            <div class="abstract">
+                In this project booth we'll be hacking on and talking about translations for the <a href='https://standard.publiccode.net/'>Standard for Public Code</a>. Recently, after popular demand, we started collecting <a href='https://github.com/publiccodenet/community-translations-standard'>community supported translations</a> of the Standard. So far, Spanish and Danish are complete. And while that is fantastic, we still don't have a great workflow or a way to display translations of different releases of the standard. We'll spend the day hacking on this and are also happy to talk about the standard itself or help you get started with a translation to your language. Please join us in hacking/translating or just pop in to say hi!
+            </div>
+            
+        </div>
+    </div>
 
-    map.setCenter(new OpenLayers.LonLat(11.9766646, 57.689343).transform(projection, map.getProjectionObject()), 13);
-</script>
+    <a name="nosad" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="https://nosad.se/"><img class="sp-image" src="images/project-nosad.png" alt="NOSAD - how to setup an open source project"></a></div>
+            
+        </div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="https://nosad.se/">NOSAD - how to setup an open source project</a></div>
+
+            <div class="links">
+            <strong>T.B.D.</strong>
+            
+                    
+                        &nbsp;-&nbsp;
+                        <a href="https://nosad.se/">NOSAD</a>
+                    
+            
+            </div>
+            
+            
+            <div class="abstract">
+                T.B.D.
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
 
 
     </div>
