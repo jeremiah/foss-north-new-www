@@ -161,6 +161,9 @@
         <div class="col-md-3">
             <div class="speaker-photo"><a href=""><img class="sp-image" src="images/project-nosad.png" alt="Let's translate Standard for Public Code to Swedish"></a></div>
             
+            &nbsp;
+            <div class="speaker-photo"><a href="https://b3.se"><img class="sp-image" src="images/venue-b3.png" alt=""></a></div>
+            
         </div>
         <div class="col-md-9">
             <div class="name"><a class="projectlink" href="">Let&#39;s translate Standard for Public Code to Swedish</a></div>
@@ -256,6 +259,12 @@
         /* End of loop */
         
     
+        
+        /* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.97521, 57.71277 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#nosad"; });
+        markers.addMarker(marker);
+        /* End of loop */
         
     
         
