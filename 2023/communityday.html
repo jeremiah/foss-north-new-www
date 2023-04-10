@@ -220,11 +220,11 @@
             
             
             <div class="abstract">
-                We meet at a local restaurant for drinks and food.
+                We meet at restaurant Vita for drinks and food.
             </div>
             
             <div class="abstract">
-                We will update the page with a location asap.
+                Please help us plan by <a href='https://www.meetup.com/foss-gbg/events/292810825'>registering your attendance</a>. We will check for registration at the entrance in case the place gets full.
             </div>
             
         </div>
@@ -267,6 +267,12 @@
         /* End of loop */
         
     
+        
+        /* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( 11.94983, 57.6983 ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#social"; });
+        markers.addMarker(marker);
+        /* End of loop */
         
     
     
